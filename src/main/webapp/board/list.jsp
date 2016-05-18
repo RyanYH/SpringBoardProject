@@ -43,7 +43,7 @@
              <font color=blue>${dto.subject }</font>
             </c:if>
             <c:if test="${msg != dto.subject }">
-             <a href="content.do?no=${dto.no }&page=${curpage}">${dto.subject }</a>
+             	<a href="content.do?no=${dto.no }&page=${curpage}">${dto.subject }</a>
             </c:if>
             <c:if test="${today==dto.dbday }">
               <img src="image/icon_new (2).gif">
